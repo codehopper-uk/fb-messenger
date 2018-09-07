@@ -30,9 +30,11 @@ class App extends Component {
           toggleModal={this.toggleModal}
         />
         <TopBar
-          toggleModal = {this.toggleModal}
+          toggleModal={this.toggleModal}
         />
-        <Messenger />
+        <Messenger
+          toggleModal={this.toggleModal}
+        />
         <Footer />
       </div>
     )
